@@ -81,7 +81,7 @@ function config(props) {
 
 function makeMedia(media) {
   return function () {
-    return css(_templateObject, media, css.apply(undefined$1, arguments));
+    return css(_templateObject, media, css.apply(undefined, arguments));
   };
 }
 
